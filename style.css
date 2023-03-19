@@ -3,15 +3,6 @@ html {
   background-color: black;
 }
 
-#loading {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: black url('Extras/load.gif') no-repeat center;
-  background-size: 50%;
-  z-index: 99999;
-}
-
 .footer {
   background-color: black;
   border: 5px solid white;
@@ -38,6 +29,16 @@ button {
   margin: 1px 1px;
   transition-duration: 0.7s;
   cursor: pointer;
+}
+
+/*Loading Page*/
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black url('Extras/Preloader.gif') no-repeat center;
+  background-size: 50%;
+  z-index: 99999;
 }
 
 /*Fonts*/
@@ -257,7 +258,7 @@ h1 {
   justify-content: center;
   align-items: center; 
   position: absolute;
-  left: 45%;
+  left: 50%;
   top: 175%;
   writing-mode: vertical-lr;
   text-orientation: upright;
@@ -288,7 +289,7 @@ img {
 /*Projects Section*/
 
 .projects {
-  height: 700px;
+  height: 650px;
   text-align: center;
 }
 
@@ -307,7 +308,7 @@ img {
   border: 2px solid grey;
   border-radius: 5px;
   max-width: 20%;
-  max-height: 40%;
+  max-height: 50%;
   transition: all 0.3s linear;
 }
 
@@ -395,7 +396,7 @@ img {
 
   .nav {
     position: fixed;
-    width: 90%;
+    width: 85%;
     max-height: 50%;
     background-color: black;
     text-align: center;
@@ -455,10 +456,13 @@ img {
   .about p1 {
     top: 10%;
 }
-
   .box button {
     padding: 10px 50px;
 }
+
+  .projects {
+    height: 100%;
+  }
 
   .box {
     display: block;
@@ -466,13 +470,9 @@ img {
     max-width: 55%;
     max-height: 45%;
   } 
-
+  
   .project {
     flex-direction: column;
-  }  
-
-  .projects {
-    height: 100%;
   }
 }
 
