@@ -298,8 +298,7 @@ img {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin: 0 45px;
+  flex-direction: column;
 }
 
 .box {
@@ -426,11 +425,6 @@ img {
   #check:checked ~ ul {
     left: 0;
   } 
-  
-  .box button {
-    margin-right: 25%;
-  }
-
 }
 
 @media all and ( max-width: 950px) {
