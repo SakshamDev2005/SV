@@ -1,5 +1,5 @@
 function link1() {
-window.open("https://www.mediafire.com/file/6gxaanipu7bgba6/sybot.exe/file");
+window.open("https://www.mediafire.com/file/ldpqoy7od2wmb1l/Translator.exe/file");
 }
 
 function link2() {
