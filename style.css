@@ -299,7 +299,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 0 25px;
+  margin: 0 45px;
 }
 
 .box {
@@ -428,7 +428,7 @@ img {
   } 
   
   .box button {
-    margin-right: 10%;
+    margin-right: 25%;
   }
 
 }
