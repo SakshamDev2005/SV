@@ -299,7 +299,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 0 15px;
+  margin: 0 25px;
 }
 
 .box {
@@ -425,7 +425,11 @@ img {
 
   #check:checked ~ ul {
     left: 0;
-  }  
+  } 
+  
+  .box button {
+    margin-right: 10%;
+  }
 
 }
 
@@ -481,7 +485,7 @@ img {
 @media all and (max-width: 280px) {
 
   .box button {
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
 
