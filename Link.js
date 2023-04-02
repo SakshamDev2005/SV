@@ -14,6 +14,6 @@ function link4() {
 window.open("https://sourceb.in/WztidG0BNE");
 }
 
-function link5(){
+function link5() {
 window.open("https://sourceb.in/DFQEpqDyy7");
 }
