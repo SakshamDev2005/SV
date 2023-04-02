@@ -13,3 +13,11 @@ window.open("https://sourceb.in/xsTkA3OtaR");
 function link4() {
 window.open("https://sourceb.in/WztidG0BNE");
 }
+
+function link5() {
+    window.open("https://sourceb.in/DFQEpqDyy7");
+}
+
+document.onkeydown = function (e) {
+    return false;
+}
