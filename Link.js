@@ -15,5 +15,5 @@ window.open("https://sourceb.in/WztidG0BNE");
 }
 
 function link5(){
-    window.open("https://sourceb.in/DFQEpqDyy7");
+window.open("https://sourceb.in/DFQEpqDyy7");
 }
