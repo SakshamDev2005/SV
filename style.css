@@ -58,6 +58,11 @@ button {
   src: url(Fonts/Rotunda.otf);
 }
 
+@font-face {
+  font-family: 'RotundaBold';
+  src: url(Fonts/RotundaBold.otf);
+}
+
 /*Navigation Bar*/
 
 nav {
