@@ -398,6 +398,10 @@ img {
     width: 90%;
   }
 
+  .social ul li {
+    margin-right: 25px;
+  }
+
   nav .nav li a {
     font-size: 40px;
   }
@@ -421,6 +425,7 @@ img {
   nav .nav li {
     display: block;
     margin: 50px 0;
+    margin-right: 20px;
   }
 
   nav .nav li a {
