@@ -5,12 +5,11 @@ html {
 
 .footer {
   background-color: white;
-  color: black;
+  text-color: black;
   transition: all .4s;
 }
 
 .footer:hover {
-  background-color: black;
   color: white; 
 }
 
