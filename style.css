@@ -9,7 +9,6 @@ html {
   width: 100%;
   height: 100px;
   transition: all .4s;
-  text-align: center;
 }
 
 .footer:hover {
