@@ -9,6 +9,9 @@ html {
   width: 100%;
   height: 100px;
   transition: all .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer:hover {
@@ -25,10 +28,6 @@ html {
   font-family: Rotunda;
   transition: all .4s;
   text-align: center;
-  margin-top: 50px;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 h2 {
