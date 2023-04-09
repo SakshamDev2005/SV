@@ -12,14 +12,15 @@ html {
 }
 
 .footer:hover {
-  background-color: white;
+  background-color: black;
 }
 
 .footer:hover h2 {
-  color: black;
+  color: white;
 }
 
 .footer h2 {
+  color: black;
   font-size: 30px;
   font-family: Rotunda;
 }
