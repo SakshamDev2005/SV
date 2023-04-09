@@ -26,6 +26,7 @@ html {
   font-family: Rotunda;
   transition: all .4s;
   text-align: center;
+  margin-top: 50px;
 }
 
 h2 {
