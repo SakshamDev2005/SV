@@ -49,10 +49,11 @@ button {
 }
 
 /*Loading Page*/
+
 #loading {
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: black url('Extras/Preloader.gif') no-repeat center;
   background-size: 50%;
   z-index: 99999;
