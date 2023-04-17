@@ -1,3 +1,4 @@
+//Link
 function link1() {
 window.open("https://www.mediafire.com/file/ldpqoy7od2wmb1l/Translator.exe/file");
 }
@@ -7,21 +8,23 @@ window.open("https://www.mediafire.com/file/lwvy72ix43k6eow/rps.exe/file");
 }
 
 function link3() {
-window.open("https://sourceb.in/xsTkA3OtaR");
+window.open("https://github.com/Sybe-Developer/Others");
 }
 
 function link4() {
-window.open("https://sourceb.in/WztidG0BNE");
+window.open("https://github.com/Sybe-Developer/Others");
 }
 
 function link5() {
-    window.open("https://sourceb.in/DFQEpqDyy7");
+    window.open("https://github.com/Sybe-Developer/Others");
 }
 
+//Disable Shortcut Keys
 document.onkeydown = function (e) {
     return false;
 }
 
+//Speaker Button (For Music)
 function play(){
     var audio = document.getElementById("audio");
     audio.play();
