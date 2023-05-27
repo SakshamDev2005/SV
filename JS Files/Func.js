@@ -1,16 +1,4 @@
 //Link
-function link3() {
-window.open("https://github.com/Sybe-Developer/Others");
-}
-
-function link4() {
-window.open("https://github.com/Sybe-Developer/Others");
-}
-
-function link5() {
-    window.open("https://github.com/Sybe-Developer/Others");
-}
-
 //Disable Shortcut Keys
 document.onkeydown = function (e) {
     return false;
