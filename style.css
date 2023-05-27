@@ -370,14 +370,9 @@ img {
 .box button { 
   cursor: pointer;
   transition: 0.5s all;
-  margin-left: 25%;
-  width: 50%;
   cursor: pointer;
   padding: 15px 30px;
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   color: black;
   border: 1px solid white;   
   border-radius: 5px;
@@ -391,7 +386,7 @@ img {
 
 /* Other Devices */
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
   
   #pc {
     display: none;
@@ -486,13 +481,6 @@ img {
     top: 35%;
   }
 
-  .box button {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    margin-right: 40px;
-  }
-
  img {
   width: 0%;
 } 
@@ -511,9 +499,6 @@ img {
   
   .about p1 {
     top: 5%;
-}
-  .box button {
-    padding: 10px 50px;
 }
 
   .projects {
