@@ -368,6 +368,8 @@ img {
 }
 
 .box button { 
+  display: inline-block;
+  text-align: center;
   cursor: pointer;
   transition: 0.5s all;
   cursor: pointer;
