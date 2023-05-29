@@ -367,11 +367,11 @@ img {
   visibility: visible;
 }
 
-.box button { 
+.box-content button { 
   cursor: pointer;
   transition: 0.5s all;
   cursor: pointer;
-  padding: 15px 30px;
+  padding: 25px 25px;
   font-size: 20px;
   color: black;
   border: 1px solid white;   
@@ -379,12 +379,12 @@ img {
   background-color: white;
 }
 
-.box button:hover {
+.box-content button:hover {
   background-color: black;
   color: white;
 }
 
-.box a {
+.box-content a {
   display: inline-block;
   text-align: center;
 }
