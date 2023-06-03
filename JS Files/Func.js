@@ -1,4 +1,3 @@
-//Link
 //Disable Shortcut Keys
 document.onkeydown = function (e) {
     return false;
