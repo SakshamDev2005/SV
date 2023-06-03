@@ -503,10 +503,8 @@ img {
     height: 100%;
   }
   
-  .box-content a {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  .box-content button {
+    padding: 10px 20px;
   }
 }
 
