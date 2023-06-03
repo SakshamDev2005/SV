@@ -384,11 +384,6 @@ img {
   color: white;
 }
 
-.box-content a {
-  display: inline-block;
-  text-align: center;
-}
-
 /* Other Devices */
 
 @media all and (max-width: 800px) {
