@@ -508,9 +508,8 @@ img {
     height: 100%;
   }
   
-  .box-content button {
+  .box-content a {
     display: block;  
-    padding: 10px 20px;
   }
 }
 
