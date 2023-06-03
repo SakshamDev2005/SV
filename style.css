@@ -476,27 +476,26 @@ img {
 }
 
 @media all and ( max-width: 950px) {
-
- .head button {
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   position: absolute;
-   text-align: center;
-   top: 35%;
+  
+  .head button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    text-align: center;
+    top: 35%;
   }
-
- img {
-  width: 0%;
+  
+  img {
+    width: 0%;
   } 
-
-.about p1 {
-  width: 100%;
+  
+  .about p1 {
+    width: 100%;
   }
 }
 
 @media all and ( max-width: 1025px) {
-
   .about {
     height: 500px;
   }
@@ -504,13 +503,13 @@ img {
   .about p1 {
     top: 5%;
 }
-
+  
   .projects {
     height: 100%;
   }
   
   .box-content button {
-    padding: 10px 20px;
+    display: block;  
   }
 }
 
