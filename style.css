@@ -472,7 +472,6 @@ img {
     max-width: 50%;
     max-height: 50%;
   } 
-  
 }
 
 @media all and ( max-width: 950px) {
@@ -496,6 +495,7 @@ img {
 }
 
 @media all and ( max-width: 1025px) {
+  
   .about {
     height: 500px;
   }
@@ -510,6 +510,7 @@ img {
   
   .box-content button {
     display: block;  
+    padding: 10px 20px;
   }
 }
 
@@ -518,14 +519,10 @@ img {
   .box {
     max-width: 70%;
   }
-
-  .about {
-    height: 650px;
-  }
 }
 
 @media all and ( max-width: 1300px) {
-
+  
   .about h2 {
     display: block; 
   }
