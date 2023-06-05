@@ -338,7 +338,7 @@ img {
   background-color: black;
   border: 2px solid grey;
   border-radius: 5px;
-  max-width: 20%;
+  max-width: 18%;
   max-height: 50%;
   transition: all 0.3s linear;
 }
@@ -355,11 +355,16 @@ img {
   min-height: 100%;
 }
 
+.box-content h3 {
+  font-size: 30px;
+}
+
 .box-content p {
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
   color: white;
+  font-size: 20px;
 }
 
 .box:hover p {
