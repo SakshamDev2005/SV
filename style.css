@@ -286,16 +286,16 @@ h1 {
   top: 175%;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  font-size: 55px;
+  font-size: 75px;
 }
 
 .about p1 {
   display: block; 
   position: relative;
-  top: 25%;
+  top: 23%;
   color: white;
   font-family: Calibri;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .about {
