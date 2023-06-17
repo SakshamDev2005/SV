@@ -299,21 +299,21 @@ h1 {
 }
 
 .about {
-  height: 500px;
+  height: 550px;
   text-align: left; 
 }
 
 img {
   display: block;
   position: relative; 
-  top: -40%;
+  top: -55%;
   left: 65%;
-  width: 30%;	
+  width: 35%;	
 }
 
 .about p1 {
   width: 40%;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 /*Projects Section*/
@@ -466,11 +466,12 @@ img {
     flex-direction: column;
   }
 
-  .box {
-    display: block;
-    margin: 20px auto;
-    max-width: 50%;
-    max-height: 50%;
+  .about {
+    height: 500px;
+  }
+
+  .box-content button {
+    padding: 15px 45px;
   } 
 }
 
@@ -491,26 +492,23 @@ img {
   
   .about p1 {
     width: 100%;
+    top: 2%;
   }
 }
 
 @media all and ( max-width: 1025px) {
   
-  .about {
-    height: 500px;
-  }
-  
-  .about p1 {
-    top: 5%;
-}
   
   .projects {
     height: 100%;
   }
-  
-  .box-content button {
-    padding: 10px 20px;
-  }
+
+  .box {
+    display: block;
+    margin: 20px auto;
+    max-width: 65%;
+    max-height: 40%;
+  } 
 }
 
 @media all and (max-width: 280px) {
@@ -518,9 +516,23 @@ img {
   .box {
     max-width: 70%;
   }
+
+  .about p1 {
+    top: 2%;
+    font-size: 30px;
+  }
+  
+  .about {
+    height: 620px;
+  }
 }
 
 @media all and ( max-width: 1300px) {
+
+  .about p1 {
+    top: 2%;
+    font-size: 35px;
+  }
   
   .about h2 {
     display: block; 
