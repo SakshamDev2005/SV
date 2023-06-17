@@ -319,8 +319,8 @@ img {
 /*Projects Section*/
 
 .projects {
-  height: 650px;
   text-align: center;
+  max-hegiht: max-content;
 }
 
 .sec1, .sec2 {
@@ -339,7 +339,6 @@ img {
   border: 2px solid grey;
   border-radius: 5px;
   max-width: 18%;
-  max-height: 50%;
   transition: all 0.3s linear;
 }
 
