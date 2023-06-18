@@ -494,10 +494,15 @@ img {
     max-width: 65%;
     max-height: 40%;
   }
-}
-
-@media all and ( max-width: 950px) {
   
+  .projects {
+    height: 100%;
+  }
+  
+  .box-content button {
+    padding: 10px 40px;
+  }
+
   .head button {
     display: flex;
     justify-content: center;
@@ -505,17 +510,46 @@ img {
     position: absolute;
     text-align: center;
     top: 35%;
+  }
+}
+
+@media all and (min-wdith: 601px) and (max-width: 950px) {
+  
+  .head button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    text-align: center;
+    top: 30%;
+  }
+
+  .box {
+    min-width: 35%;
+    max-height: 20%;
+  }
+
+  .box-content button {
+    padding: 25px 40px;
   } 
 }
 
-@media all and ( max-width: 1025px) {
+@media all and (min-width: 951px) and (max-width: 1025px) {
   
   .box-content button {
-    padding: 15px 45px;
+    padding: 10px 70px;
   } 
+
+  .box {
+    max-width: 25%;
+  }
   
   .projects {
     height: 100%;
+  }
+
+  .about {
+    height: 500px;
   }
 }
 
@@ -524,13 +558,18 @@ img {
   .box {
     max-width: 70%;
   }
-
-  .about p1 {
-    font-size: 30px;
-  }
   
   .about {
     height: 650px;
+  }
+  
+  .head button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    text-align: center;
+    top: 45%;
   }
 }
 
