@@ -323,6 +323,12 @@ img {
   text-align: center;
 }
 
+.projects h3 {
+  color: white;
+  font-size: 25px;
+  font-family: Romanus;
+}
+
 .sec1, .sec2 {
   display: flex;
   justify-content: space-evenly;
