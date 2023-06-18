@@ -478,10 +478,6 @@ img {
   .about {
     height: 500px;
   }
-
-  .box-content button {
-    padding: 15px 45px;
-  } 
 }
 
 @media all and ( max-width: 950px) {
@@ -514,6 +510,9 @@ img {
 
 @media all and ( max-width: 1025px) {
   
+  .box-content button {
+    padding: 15px 45px;
+  } 
   
   .projects {
     height: 100%;
