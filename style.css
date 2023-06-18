@@ -513,7 +513,7 @@ img {
   }
 }
 
-@media all and (min-wdith: 601px) and (max-width: 950px) {
+@media all and (min-wdith: 601px) and (max-width: 999px) {
   
   .head button {
     display: flex;
@@ -538,7 +538,7 @@ img {
   } 
 }
 
-@media all and (min-width: 951px) and (max-width: 1025px) {
+@media all and (min-width: 1000px) and (max-width: 1200px) {
   
   .box-content button {
     padding: 10px 70px;
