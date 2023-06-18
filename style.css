@@ -526,12 +526,11 @@ img {
   }
 
   .about p1 {
-    top: 2%;
     font-size: 30px;
   }
   
   .about {
-    height: 620px;
+    height: 650px;
   }
 }
 
