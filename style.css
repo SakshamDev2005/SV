@@ -478,6 +478,10 @@ img {
   .about {
     height: 500px;
   }
+  
+   img {
+    width: 0%;
+  }
 }
 
 @media all and ( max-width: 950px) {
@@ -489,10 +493,6 @@ img {
     position: absolute;
     text-align: center;
     top: 35%;
-  }
-  
-  img {
-    width: 0%;
   } 
   
   .about p1 {
