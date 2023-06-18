@@ -482,6 +482,11 @@ img {
    img {
     width: 0%;
   }
+  
+  .about p1 {
+    width: 100%;
+    top: 2%;
+  }
 }
 
 @media all and ( max-width: 950px) {
@@ -494,11 +499,6 @@ img {
     text-align: center;
     top: 35%;
   } 
-  
-  .about p1 {
-    width: 100%;
-    top: 2%;
-  }
   
   .box {
     display: block;
