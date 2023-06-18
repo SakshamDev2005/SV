@@ -513,8 +513,8 @@ img {
   }
 }
 
-@media all and (min-wdith: 601px) and (max-width: 999px) {
-  
+@media all and (min-width: 601px) and (max-width: 999px) {
+
   .head button {
     display: flex;
     justify-content: center;
@@ -523,19 +523,22 @@ img {
     text-align: center;
     top: 30%;
   }
+  
+  .box-content button {
+    padding: 15px 40px;
+  } 
 
   .box {
-    max-width: 35%;
-    max-height: 20%;
+    max-width: 25%;
   }
   
   .projects {
     height: 100%;
   }
 
-  .box-content button {
-    padding: 25px 40px;
-  } 
+  .about {
+    height: 530px;
+  }
 }
 
 @media all and (min-width: 1000px) and (max-width: 1200px) {
