@@ -333,13 +333,16 @@ img {
 }
 
 .box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-self: normal;
   text-align: center;
   color: white;
   background-color: black;
   border: 2px solid grey;
   border-radius: 5px;
   max-width: 18%;
-  max-hegiht: max-content;
   transition: all 0.3s linear;
 }
 
