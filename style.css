@@ -341,14 +341,14 @@ img {
   color: white;
   background-color: black;
   border: 2px solid grey;
-  border-radius: 5px;
+  border-radius: 15px;
   max-width: 18%;
   transition: all 0.3s linear;
 }
 
 .box:hover {
   transform: scale(1.1);
-  border: 2px solid blue;
+  border: 1px solid cyan;
 }
 
 .box-content {
