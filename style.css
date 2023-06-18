@@ -563,6 +563,10 @@ img {
     height: 650px;
   }
   
+  .box-content button {
+    padding: 10px 40px;
+  }
+  
   .head button {
     display: flex;
     justify-content: center;
