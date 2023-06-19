@@ -537,11 +537,15 @@ img {
   }
 
   .about {
-    height: 500px;
+    height: 460px;
   }
   
   .about p1 {
     min-width: 50%;
+  }
+  
+  img {
+    top: -70%;
   }
 }
 
