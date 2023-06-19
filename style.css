@@ -485,7 +485,6 @@ img {
   
   .about p1 {
     width: 100%;
-    top: 2%;
   }
   
   .box {
@@ -537,15 +536,16 @@ img {
   }
 
   .about {
-    height: 460px;
+    height: 600px;
   }
   
   .about p1 {
     min-width: 50%;
   }
   
-  img {
-    top: -70%;
+ img {
+    top: -50%;
+    width: 50%;
   }
 }
 
@@ -564,11 +564,12 @@ img {
   }
 
   .about {
-    height: 450px;
+    height: 500px;
   }
   
   img {
     top: -75%;
+    left: 45%;
   }
 }
 
@@ -579,7 +580,7 @@ img {
   }
   
   .about {
-    height: 650px;
+    height: 700px;
   }
   
   .box-content button {
@@ -599,7 +600,7 @@ img {
 @media all and ( max-width: 1300px) {
 
   .about p1 {
-    top: 2%;
+    top: 10%;
     font-size: 35px;
   }
   
