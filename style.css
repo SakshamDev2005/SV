@@ -424,7 +424,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
   }
 
   .social ul li {
@@ -521,7 +521,7 @@ img {
     align-items: center; 
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 25%;
   }
   
   .box-content button {
@@ -537,7 +537,11 @@ img {
   }
 
   .about {
-    height: 550px;
+    height: 500px;
+  }
+  
+  .about p1 {
+    min-width: 50%;
   }
 }
 
@@ -556,7 +560,11 @@ img {
   }
 
   .about {
-    height: 500px;
+    height: 450px;
+  }
+  
+  img {
+    top: -75%;
   }
 }
 
