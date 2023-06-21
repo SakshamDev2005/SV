@@ -1,10 +1,13 @@
 var preloader = document.getElementById('loading');
-var scroll = document.getElementById('pagee');
-scroll.style.overflow = "hidden";
 
+function disableScroll() {
+  document.body.classList.add("stop-scrolling");
+}
+         
 function preloadComplete() {
+  disableScroll()
   preloader.style.display = 'none';
-  scroll.style.overflow = "scroll";
+  document.body.classList.remove("stop-scrolling");
 }
 
 preloadComplete();
