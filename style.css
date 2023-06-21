@@ -60,6 +60,10 @@ button {
   overflow: hidden;
 }
 
+#pagee {
+  overflow: hidden;
+}
+
 /*Fonts*/
 
 @font-face {
