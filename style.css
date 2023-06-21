@@ -3,6 +3,9 @@ html {
   background-color: black;
 }
 
+body {
+  overflow: hidden;
+}
 .footer {
   background-color: white;
   color: black;
