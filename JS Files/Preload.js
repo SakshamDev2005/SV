@@ -1,9 +1,9 @@
 var preloader = document.getElementById('loading');
-document.body.style.overflow = "hidden";
+var scroll = document.getElmentById('pagee');
 
 function preloadComplete() {
   preloader.style.display = 'none';
-  document.body.style.overflow = "scroll";
+  scroll.style.overflow = "scroll";
 }
 
 preloadComplete();
