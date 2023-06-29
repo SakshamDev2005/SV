@@ -9,6 +9,7 @@ html {
   width: 100%;
   height: max-content;
   transition: all .4s;
+  padding: 30px;
 }
 
 .footer-content {
@@ -26,7 +27,7 @@ html {
   color: white;
 }
 
-.footer-conent h2 {
+.footer-content h2 {
   color: black;
   font-size: 30px;
   font-family: Rotunda;
