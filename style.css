@@ -277,22 +277,6 @@ h1 {
 
 /*About Page*/
 
-.about h2 {
-  display: none;
-}
-
-.vr-t h2 { 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  position: absolute;
-  left: 40%;
-  top: 175%;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  font-size: 75px;
-}
-
 .about p1 {
   display: block; 
   position: relative;
