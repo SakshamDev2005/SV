@@ -9,7 +9,6 @@ html {
   width: 100vw;
   height: max-content;
   transition: all .4s;
-  padding: 0 5px;
 }
 
 .footer-content {
