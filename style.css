@@ -7,11 +7,15 @@ html {
   background-color: white;
   color: black;
   width: 100%;
-  height: 100px;
+  height: max-content;
   transition: all .4s;
+}
+
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .footer:hover {
@@ -22,7 +26,7 @@ html {
   color: white;
 }
 
-.footer h2 {
+.footer-conent h2 {
   color: black;
   font-size: 30px;
   font-family: Rotunda;
