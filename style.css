@@ -10,6 +10,7 @@ html {
   height: max-content;
   transition: all .4s;
   padding: 1px;
+  border-top: 1px solid #333;
 }
 
 .footer-content {
