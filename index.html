@@ -23,19 +23,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="Extras/favicon.png">
     <script src="https://unpkg.com/scrollreveal@4"></script>
-    <script src="JS Files/Func.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="JS/Func.js"></script>
   
-    <!--Music File-->
+    <!--Music File
     <audio id="audio" loop>
         <source src="Extras/Music.mp3" type="audio/mpeg">
-    </audio> 
+    </audio> -->
 
     <!-- Preloader -->
     <div id="loading"></div>
 
 </head>
 
-<body id="pagee" onload="preloadComplete()">
+<body onload="preloadComplete()">
 
     <!-- Navigation Bar -->
     <nav>
@@ -45,8 +47,8 @@
             </label>
         <ul class="nav">
             <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#social">Social</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a class="active" href="#about">About</a></li>
+            <li><a class="active" href="#projects">Projects</a></li>
         </ul>
         <!--<button onclick="play()" id="play"><i class="fa-solid fa-volume-high"></i></button>
         <button onclick="pause()" id="pause"><i class="fa-sharp fa-solid fa-volume-xmark"></i></button>-->
@@ -56,25 +58,22 @@
     <div class="head" id="home">
         <h1 class="pc" id="pc">WELCOME TO SYBER VERSE</h1>
 	    <h1 id="mobile">SYBER VERSE</h1>
-        <a href="#projects">
-            <button>PROJECTS</button></a>	
+        <a href="#projects"><button>PROJECTS</button></a>
+        <!--Social Handles Bar-->
+        <div class="social" id="social">
+            <a href="https://discord.com/users/1058967734869835907" target="_blank"><i class="fa-brands fa-discord fa-3x"></i></a>
+            <a href="https://github.com/Sybe-Developer" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+            <a href="https://instagram.com/capablegupta" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="mailto:syberverse2022@gmail.com" target="_blank"><i class="fa-regular fa-envelope-open fa-3x"></i></a>
+        </div>	  
     </div>
     <div id="particles-js"></div>
-
-    <!--Social Handle Section -->
-    <div class="socials" id="social">
-        <h2>SOCIAL HANDLES</h2>
-        <div class="social">
-            <ul>
-                <li><a href="https://discord.com/users/1058967734869835907" target="_blank"><i class="fa-brands fa-discord fa-3x"></i></a></li>
-		        <li><a href="https://github.com/Sybe-Developer" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
-            </ul>
-        </div>
+        
     </div>
 
     <!-- About Section -->
     <div class="about" id="about">
-        <h2 class="ab1">ABOUT ME</h2>
+        <h2 class="ab">ABOUT ME</h2>
         <p1>
             This is Saksham.
             I Love to Explore and Perceive About Advancing Technology.
@@ -87,47 +86,61 @@
     <!-- Projects Section-->
     <div class="projects" id="projects">
         <h2 class="pro">PROJECTS</h2>
-	    <h3 class='.pr1'>Here Are Some Of My Projects</h3>
-        <div class="sec1">
+	    <h3 class='ph'>Here Are Some Of My Projects</h3>
+        <div class="pro">
             <div class="box">
                 <div class="box-content">
                     <h3>SyBot</h3>
-                    <a href="https://www.mediafire.com/file/3c04hgabxpeai1n/SyBot.exe/file"><button>Click Here</button></a>
-                    <p>A ChatBot which also works as Virtual Assistant in Console Application.</p>
+                    <a href="Extras/SyBot.exe" download="SyBot.exe" target="_blank"><button>Click Here</button></a>
+                    <p>A ChatBot which also works as Virtual Assistant in Console.</p>
                 </div>    
             </div>
             <div class="box">
                 <div class="box-content">
-                    <h3>RPS Game (CUI)</h3>
-                    <a href="Extras/RPS Game.exe" download="RPS Game.exe"><button>Click Here</button></a>
-                    <p>A Game in which User plays against Computer with numberless rounds.</p>
+                    <h3>RPS Game</h3>
+                    <a href="Extras/RPS Game.exe" download="RPS Game.exe" target="_blank"><button>Click Here</button></a>
+                    <p>A simple Rock Paper Scissors Game with numberless rounds in Console.</p>
                 </div>    
             </div>
-        </div> 
-        <div class="sec2">
-        </div>           
+            <div class="box">
+                <div class="box-content">
+                    <h3>Math Quiz</h3>
+                    <a href="https://github.com/Sybe-Developer/Math-Quiz" target="_blank"><button>Click Here</button></a>
+                    <p>A Math Quiz program (with levels) uploaded on GitHub.</p>
+                </div>    
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h3>Calculator</h3>
+                    <a href="Extras/Calculator.exe" target="_blank"><button>Click Here</button></a>
+                    <p>A Calculator with GUI feature (source code on GitHub).</p>
+                </div>    
+            </div>
+        </div>         
     </div>
 
     <footer class="footer">
 	<div class='footer-content'>
-		<h2>Developed And Managed By Saksham Gupta</h2>
+		<h2>Developed And Managed By Saksham</h2>
 	</div>
     </footer>
 
     <!-- Particles Source File -->
-    <script src="JS Files/Particles.js"></script>
-    <script src="JS Files/App.js"></script>
+    <script src="JS/Particles.js"></script>
+    <script src="JS/App.js"></script>
 
     <!-- Scroll Animations -->
     <script>ScrollReveal().reveal('.head');</script>  
-    <script>ScrollReveal().reveal('.socials');</script>
+    <script>ScrollReveal().reveal('.social');</script>  
     <script>ScrollReveal().reveal('.about');</script>
-    <script>ScrollReveal().reveal('.vr-t');</script>
     <script>ScrollReveal().reveal('.pro');</script>
-    <script>ScrollReveal().reveal('.pr1');</script>
-	
-    <!-- Preload File -->
-    <script src="JS Files/Preload.js"></script>
+    <script>ScrollReveal().reveal('.ph');</script>
+
+    <!--File of JavaScript For Functions-->
+    <script src="JS/Preloader.js"></script>
+
+    <!--External Sites-->
+    <script src="https://fariskassim.com/stage/rebel9/teaf/blob/v4/js/perlin.js" type="61a68d1bdf5cfc6b0dde590f-text/javascript"></script>
 
 </body>
 

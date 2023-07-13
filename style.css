@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   background-color: black;
+
 }
 
 .footer {
@@ -59,8 +60,8 @@ button {
   width: 100%;
   height: 100vh;
   background: black url('Extras/Preloader.gif') no-repeat center;
-  background-size: 50%;
-  z-index: 99999;
+  background-size: 100%;
+  z-index: 99000;
   overflow: hidden;
 }
 
@@ -69,11 +70,6 @@ button {
 @font-face {
   font-family: 'SpaceGrotesk';
   src: url(Fonts/SpaceGrotesk.ttf); 
-}
-
-@font-face {
-  font-family: 'Romanus';
-  src: url(Fonts/Romanus.otf); 
 }
 
 @font-face {
@@ -89,23 +85,22 @@ button {
 /*Navigation Bar*/
 
 nav {
-  height: 25px;
+  height: 70px;
   width: 100%;
   z-index: 10000;
   position: sticky;
   top: 0;
+  background-color: rgba(0,0,0,0.5);
 }
 
 nav ul {
-  float: right;
-  margin-right: 20px;
   text-align: center;
 }
 
 nav ul li {
   display: inline-block;
-  line-height: 20px;
-  margin: 0 5px;
+  line-height: 70px;
+  margin: 0 10px;
 }
 
 nav ul li a {
@@ -114,7 +109,6 @@ nav ul li a {
   font-size: 30px;
   padding: 5px 5px;
   border-radius: 5px;
-  text-transform: uppercase;
   list-style: none;
   text-decoration: none;
 }
@@ -181,7 +175,7 @@ a:hover {
 
 h1 {
   font-family: helvetica;
-  font-size: 45px;
+  font-size: 55px;
   text-align: center;
   background: linear-gradient(to right, #FF3131, #FF5F1F, #FFFF00, #39FF14, #1F51FF, #7B00FF, #9D00FF);
   background-size: 200% auto;	
@@ -224,14 +218,10 @@ h1 {
 
 /*Social Handle Styling*/
 
-.socials { 
-  height: 200px;
-  display: block;   
-}
-
 .social i.fa-brands {
   color: white;
-  margin: 0 20px;
+  font-size: 30px;
+  margin: 0 5px;
   padding: 10px; 
   border-radius: 5px;
   transition: all 0.5s linear;
@@ -240,90 +230,110 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.social ul {
-  display: block;
+.social i.fa-regular {
+  color: white;
+  font-size: 30px;
+  margin: 0 5px;
+  padding: 10px; 
+  border-radius: 2px;
+  transition: all 0.5s linear;
+  background-clip: text;
+}
+
+.social {
+  position: absolute;
+  top: 35%;
+  left: 50%;
   text-align: center;
-}
-
-.social ul li {
-  display: inline-block;
-  margin: 0 20px;
-  margin-top: 30px;
-}
-
-.social i.fa-instagram {
-  background-image: linear-gradient(#8a3ab9,#e95950,#bc2a8d,#fccc63,#fbad50,#cd486b,#4c68d7);
+  transform: translate(-50%, -50%);
 }
 
 .social i.fa-discord {
   background-color: #5865f2;
 }
 
-.social i.fa-github {
-  background-color: #fff;
+.social i.fa-github  {
+  background-color: white;
+}
+
+.social i.fa-instagram  {
+  background-color: #F535AA;
 }
 
 .social i.fa-brands:hover  {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
-/*.social i.fa-solid {
-  background-color: white;
-  transition: all 0.5s linear;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}*/
+.social i.fa-regular:hover  {
+  transform: scale(1.2);
+}
 
 /*About Page*/
 
 .about p1 {
   display: block; 
   position: relative;
-  top: 23%;
+  top: 25%;
+  left: 5%;
   color: white;
   font-family: Calibri;
   font-size: 35px;
 }
 
+.about h2 {
+  display: block;
+  position: relative;
+  top: 15%;
+  font-size: 50px;
+}
+
 .about {
-  height: 550px;
+  height: 700px;
+  width: 100%;
   text-align: left; 
 }
 
 img {
   display: block;
   position: relative; 
-  top: -55%;
+  top: -40%;
   left: 50%;
   width: 50%;	
 }
 
 .about p1 {
-  width: 40%;
-  font-size: 40px;
+  width: 45%;
+  font-size: 45px;
 }
 
 /*Projects Section*/
 
 .projects {
-  height: 650px;
+  height: 1100px;
   text-align: center;
 }
 
-.projects h3 {
+.projects h2 {
+  position: relative;
+  top: 10%;
+}
+
+.ph {
   color: white;
   font-size: 25px;
   font-family: Verdana;
+  position: relative;
+  top: 10%;
 }
 
-.sec1, .sec2 {
+.pro {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 20px auto;
+  position: relative;
+  top: 15%;
 }
 
 .box {
@@ -335,8 +345,9 @@ img {
   color: white;
   background-color: black;
   border: 2px solid grey;
-  border-radius: 15px;
-  max-width: 17%;
+  border-radius: 10px;
+  max-width: 20%;
+  margin: 40px 40px;
   transition: all 0.3s linear;
 }
 
@@ -353,7 +364,11 @@ img {
 }
 
 .box-content h3 {
-  font-size: 30px;
+  position: relative;
+  top: 1%;
+  font-size: 25px;
+  font-family: Verdana;
+  color: white;
 }
 
 .box-content p {
@@ -361,7 +376,8 @@ img {
   visibility: hidden;
   transition: 0.5s;
   color: white;
-  font-size: 20px;
+  font-family: 'Segoe UI';
+  font-size: 25px;
 }
 
 .box:hover p {
@@ -377,7 +393,7 @@ img {
   font-size: 20px;
   color: black;
   border: 1px solid white;   
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: white;
 }
 
@@ -388,35 +404,11 @@ img {
 
 /* Other Devices */
 
-@media all and (max-width: 600px) {
-  
-  #pc {
-    display: none;
-  }
+@media all and (max-width: 280px) {
 
-  #mobile {
-    display: block;
-  }
-
-  .head {
-    height: 300px;
-  }
-
-  .socials {
-    height: 300px;
-  }
-
-  .social ul {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-  }
-
-  .social ul li {
-    margin-right: 25px;
+  .social {
+    width: 100%;
+    top: 65%;
   }
 
   nav .nav li a {
@@ -429,25 +421,24 @@ img {
 
   .nav {
     position: fixed;
-    width: 90%;
+    top: -100%;
+    width: 100%;
     max-height: 50%;
     background-color: black;
     text-align: center;
-    top: 80px;
-    left: -105%;
     transition: all .5s;
     z-index: 5;
   }
 
   nav .nav li {
     display: block;
-    margin: 50px 0;
-    margin-right: 20px;
+    margin: 30px 0;
+    margin-right: 10px;
+    width: 70%;
   }
 
   nav .nav li a {
     font-size: 20px;
-    text-align: center; 
   }
 
   a:hover {
@@ -456,15 +447,122 @@ img {
   }
 
   #check:checked ~ ul {
-    left: 0;
+    top: 100px;
   } 
 
-  .sec1, .sec2 {
+  .box {
+    max-width: 85%;
+    max-height: 30%;
+    margin: 25px auto;
+  }
+
+  img {
+    width: 0%;
+  }
+
+  .projects {
+    height: 2000px;
+  }
+
+  .pro {
+    top: 10%;
+    flex-direction: column;
+  }
+  
+  .about {
+    height: 550px;
+  }
+
+  .about p1 {
+    width: 100%;
+  }
+  
+  .box-content button {
+    padding: 15px 55px;
+  }
+  
+  .head button {
+    position: relative;
+    text-align: center;
+  }
+
+  #pc {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  .about p1 {
+    top: 8%;
+    font-size: 35px;
+  }
+}
+
+@media all and (min-width: 281px) and (max-width: 600px) {
+
+  .social {
+    top: 40%;
+    width: 100%;
+  }
+
+  #pc {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  .head {
+    height: 500px;
+  }
+
+  nav .nav li a {
+    font-size: 40px;
+  }
+
+  .checkbtn {
+    display: inline-block;
+  }
+
+  .nav {
+    position: fixed;
+    width: 100%;
+    max-height: 60%;
+    background-color: black;
+    text-align: center;
+    top: -100%;
+    transition: all .5s;
+    z-index: 5;
+  }
+
+  nav .nav li {
+    display: block;
+    margin: 50px 0;
+    width: 75%;
+  }
+
+  nav .nav li a {
+    font-size: 20px;
+  }
+
+  a:hover {
+    background: none;
+    color: cyan;
+  }
+
+  #check:checked ~ ul {
+    top: 100px;
+  } 
+
+  .project {
     flex-direction: column;
   }
 
   .about {
-    height: 550px;
+    max-height: 400px;
   }
   
    img {
@@ -472,7 +570,8 @@ img {
   }
   
   .about p1 {
-    width: 100%;
+    width: 90%;
+    font-size: 30px;
   }
   
   .box {
@@ -483,7 +582,7 @@ img {
   }
   
   .projects {
-    height: 100%;
+    height: 1900px;
   }
   
   .box-content button {
@@ -491,40 +590,45 @@ img {
   }
 
   .head button {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 40%;
+    top: -35%;
   }
+
+  .about p1 {
+    top: 10%;
+    font-size: 35px;
+  }
+
 }
 
 @media all and (min-width: 601px) and (max-width: 999px) {
 
+  .social {
+    top: 20%;
+  }
+
   .head button {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
     position: absolute;
+    top: 30%;
     text-align: center;
-    top: 25%;
+
   }
   
   .box-content button {
-    padding: 15px 40px;
+    padding: 15px 55px;
   } 
 
   .box {
-    max-width: 25%;
+    max-width: 30%;
   }
   
   .projects {
-    height: 100%;
+    height: 1200px;
   }
 
   .about {
-    height: 600px;
+    height: 500px;
   }
   
   .about p1 {
@@ -532,8 +636,20 @@ img {
   }
   
  img {
-    top: -50%;
+    top: -60%;
     width: 50%;
+  }
+  #pc {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  .about p1 {
+    top: 10%;
+    font-size: 35px;
   }
 }
 
@@ -548,55 +664,40 @@ img {
   }
   
   .projects {
-    height: 100%;
+    height: 1200px;
   }
 
   .about {
-    height: 500px;
+    height: 400px;
   }
   
   img {
     top: -75%;
-    left: 45%;
+    left: 50%;
   }
-}
-
-@media all and (max-width: 280px) {
-  
-  .box {
-    max-width: 70%;
-  }
-  
-  .about {
-    height: 700px;
-  }
-  
-  .box-content button {
-    padding: 10px 40px;
-  }
-  
-  .head button {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    position: absolute;
-    text-align: center;
-    top: 50%;
-  }
-}
-
-@media all and ( max-width: 1300px) {
 
   .about p1 {
     top: 10%;
     font-size: 35px;
   }
-  
-  .about h2 {
-    display: block; 
+}
+
+@media all and (min-width: 1280px) and ( max-width: 1300px) {
+
+  .box {
+    max-width: 20%;
   }
 
-  .vr-t{
-    display:none;
+  .about p1 {
+    top: 15%;
+    font-size: 35px;
+  }
+
+  img {
+    top: -80%;
+  }
+
+  .about {
+    height: 400px;
   }
 }
