@@ -53,6 +53,18 @@ button {
   cursor: pointer;
 }
 
+/*Loading Page*/
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: black url('Extras/Preloader.gif') no-repeat center;
+  background-size: 100%;
+  z-index: 99000;
+  overflow: hidden;
+}
+
 /*Fonts*/
 
 @font-face {
@@ -449,7 +461,7 @@ img {
   }
 
   .projects {
-    height: 2000px;
+    height: 2300px;
   }
 
   .pro {
@@ -458,7 +470,7 @@ img {
   }
   
   .about {
-    height: 570px;
+    height: 550px;
   }
 
   .about p1 {
@@ -570,7 +582,7 @@ img {
   }
   
   .projects {
-    height: 2000px;
+    height: 2300px;
   }
   
   .box-content button {
@@ -612,11 +624,11 @@ img {
   }
   
   .projects {
-    height: 1200px;
+    height: 1600px;
   }
 
   .about {
-    height: 500px;
+    height: 450px;
   }
   
   .about p1 {
