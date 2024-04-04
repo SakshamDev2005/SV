@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html oncontextmenu="return false" onselect="return false" ondragstart="return false">
+
+<head>
+	
+    <!-- Meta Of Website -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="description" content="Saksham's Portfolio">
+    <meta name="keywords" content="Website,Portfolio,Developer,Syber Verse">
+    <meta name="author" content="Saksham">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="Language" content="English">
+    <meta property="og:url" content="https://syberverse.tech">
+    <meta property="og:type" content="Website">
+    <meta property="og:title" content="Syber Verse">
+    <meta property="og:description" content="Saksham's Portfolio Site">
+
+    <title>SYBER VERSE</title>
+
+    <!-- External Files -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta2/css/all.css">
+    <link rel="stylesheet" href="Others/CSS/style.css">
+    <link rel="shortcut icon" type="image/png" href="Others/Extras/Graphics/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+            </label>
+        <ul class="nav">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a class="active" href="#about">About</a></li>
+            <li><a class="active" href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="head" id="home">
+        <h1 class="headd">SYBER VERSE</h1>
+        <div class="facepage">
+
+            <!--Social Handles Bar-->
+            <div class="social" id="social">
+
+                <a href="https://discord.com/users/1058967734869835907" target="_blank"><i class="fa-brands fa-discord fa-3x " id="discord"></i></a>
+                <a href="https://github.com/SakshamDev2005" target="_blank"><i class="fa-brands fa-github fa-3x" id="github"></i></a>
+                <a href="https://instagram.com/capablegupta" target="_blank"><i class="fa-brands fa-instagram fa-3x" id="instagram"></i></a>
+                <a href="https://replit.com/@Sybe20222" target="_blank"><i class="fa-brands fa-chrome" id="replit"></i></a>
+                <a href="https://www.linkedin.com/in/saksham2005/" target="_blank"><i class="fa-brands fa-linkedin fa-3x" id="linkedin"></i></a>
+                
+            </div>
+
+            <a href="#projects"><button class="butt1">PROJECTS</button></a>
+            
+        </div>	
+    </div>
+
+    <div id="particles-js"></div>
+
+    <!-- About Section -->
+    <div class="about" id="about">
+        <h2 class="ab">ABOUT ME</h2>
+        <div class="aboutpart">
+            <p class="about-text">
+                This is Saksham Gupta.
+               I'm an avid explorer of emerging technology, deeply passionate about all things computer-related. 
+               Thriving as a Front-End Developer, I bring creativity to user interfaces. 
+               Beyond Front-End, my expertise extends to Back-End languages like Python, Java, and SQL (MySQL). 
+               In addition to coding, I've honed skills in UX/UI, adding user-centric design finesse to projects. 
+               My journey in tech is a testament to my love for exploration and dedication to staying at the forefront of technological advancements.
+            </p> 
+            <img src="Others/Extras/Graphics/img.gif" alt="img">
+        </div>
+    </div>
+
+    <!-- Projects Section-->
+    <div class="projects" id="projects">
+
+        <h2 class="proh">PROJECTS</h2>
+	    <h3 class='ph'>Here Are Some Of My Projects</h3>
+
+        <div class="pro" id="project-content">
+        </div>         
+    </div>
+
+    <footer class="footer">  
+        <hr>
+        <h2>© 2024 SyberVerse</h2>
+    </footer>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+  
+    <script>
+      const tips = [
+        {
+          query: '#discord',
+          content: 'Discord'
+        },
+        {
+          query: '#instagram',
+          content: 'Instagram',
+        },
+        {
+          query: '#linkedin',
+          content: 'LinkedIn',
+        },
+        {
+          query: '#replit',
+          content: 'Replit',
+        },
+        {
+          query: '#github',
+          content: 'GitHub',
+        },
+      ];
+  
+      for (const { query, content } of tips) {
+        tippy(query, { content })
+      }
+    </script>
+
+    <!-- JS -->
+    <script src="Others/JS/Particles.js"></script>
+    <script src="Others/JS/App.js"></script>
+    <script src="Others/JS/Script.js"></script>
+    <script src="Others/JS/Project.js"></script>
+
+    <!-- Scroll Animations -->
+    <script>ScrollReveal().reveal('.head', {delay: 1000 } );</script>  
+    <script>ScrollReveal().reveal('.about', {delay: 1000, distance:'10%' });</script>
+    <script>ScrollReveal().reveal('.proh', {delay: 500, distance:'10%' });</script>
+    <script>ScrollReveal().reveal('.ph', {delay: 800, distance:'10%' });</script>
+    <script>ScrollReveal().reveal('.pro', {delay: 1500, distance:'15%' });</script>
+
+</body>
+
+</html>
