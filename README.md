@@ -4,7 +4,7 @@ Welcome to **SyberVerse**, my first personal portfolio website!
 This space is designed to showcase my projects, technical skills, and creative journey started from 2022.
 
 ## 🔗 Live Website  
-[👉 Visit SyberVerse](https://syberverse.netlify.com)
+[👉 Visit SyberVerse](https://syberverse.netlify.app)
 
 ## 🧭 Site Sections
 
